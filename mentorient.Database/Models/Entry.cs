@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace mentorient.Database.Modles
+namespace mentorient.Database.Models
 {
     public class Entry
     {

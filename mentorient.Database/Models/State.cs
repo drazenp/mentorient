@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace mentorient.Database.Modles
+namespace mentorient.Database.Models
 {
     public class State
     {
