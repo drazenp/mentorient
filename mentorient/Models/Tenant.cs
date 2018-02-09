@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
-using mentorient.Models.Accounting;
+using mentorient.Database.Models;
 
 namespace mentorient.Models
 {
@@ -47,9 +47,6 @@ namespace mentorient.Models
         public string State { get; set; }
         public string Country { get; set; }
 
-        public virtual ICollection<Entry>  Entries { get; set; }
-        = new List<Entry>();
-
-        
+        public virtual ICollection<Entry>  Entries { get; set; } = new List<Entry>();
     }
 }

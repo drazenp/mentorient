@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using mentorient.Models;
+using mentorient.Database.Models;
 using mentorient.Models.ManageViewModels;
 using mentorient.Services;
 using mentorient.Authorization;

@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using mentorient.Data;
-using mentorient.Models;
+using mentorient.Database;
+using mentorient.Database.Models;
 using Microsoft.AspNetCore.Identity;
 
 namespace mentorient.Controllers

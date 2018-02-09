@@ -1,8 +1,7 @@
 using System.Linq;
 using System.Net.Mime;
-using mentorient.Data;
-using mentorient.Models;
-using mentorient.Models.Accounting;
+using mentorient.Database;
+using mentorient.Database.Models;
 using mentorient.Models.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
